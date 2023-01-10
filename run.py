@@ -34,6 +34,7 @@ def validate_data(values):
     Raises ValueError if strings cannot be coverted into int,
     or if there aren't eaxctly 6 values.
     """
+    print(values)
     try:
         if len(values) != 6:
             raise ValueError(
